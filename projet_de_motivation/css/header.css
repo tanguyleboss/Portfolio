@@ -1,0 +1,96 @@
+header {
+    background-color: #EEEEEE;
+    display: flex;
+    font-family: 'Poppins Medium', sans-serif;
+    text-decoration:none;
+    color:#222831;
+    height: 15%;
+    position:sticky;
+    top:0px;
+    background: linear-gradient( #EEEEEE,transparent) ;
+    z-index: 2;
+}
+
+.displayed {
+    display: flex;
+    height: 75%;
+    background-color: #00ADB5;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 7px 7px 0px #393E46;
+    margin-top: 5px;
+    margin-left: 25px;
+    top: 0px;
+    left: 0px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 5px 5px;
+    color:#393E46;
+}
+
+
+#menufond{
+    width: 100%;
+    overflow : hidden;
+    height : 50px;
+    }
+
+#menu{
+    display: table;
+    margin-right : auto;
+    margin-left : auto;
+    margin-top : 0;
+    padding : 0;
+}
+
+#menu li{
+    display: table-cell;
+    width: 160px;
+    transition:1s;
+}
+
+#menu li:hover{
+    width:170px;
+    transition:1s;
+}
+
+#menu a{
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    text-decoration : none;
+    color : #222831;
+    position:relative;
+}
+
+#menu a:hover{
+    background: rgba(255,255,255,0.1);
+    border-bottom: solid 4px #00ADB5;
+}
+
+#menu a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transition:1s;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid #393E46;
+}
+
+#menu a:hover::before{
+    border-color: #EEEEEE transparent transparent;
+    box-shadow: 0 -1px 0 #393E46;
+    transition:1s
+}
+
+#menu a:hover::before{
+    border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    transition:1s
+}

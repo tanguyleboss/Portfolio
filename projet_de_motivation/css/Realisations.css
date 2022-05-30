@@ -1,0 +1,121 @@
+html{
+    font-family :'Poppins Medium', sans-serif;
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+h5{
+    font-size:1.05em;
+    margin: 10px;
+}
+
+body {
+    color:#222831;
+    margin:0px;
+}
+
+footer {
+    height:18%;
+    width: 100%;
+    position:fixed;
+    font-family: 'Poppins Medium', sans-serif;
+    text-align: center;
+    margin-left: 0px;
+    bottom: 0px;
+    color: #EEEEEE;
+    background-color:  #393E46;
+}
+
+.icon {
+    margin-right: 5px;
+    color:#EEEEEE;
+}
+
+.size{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ventre {
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:65%;
+}
+
+img,video {
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.menuBouton{
+    display: flex;
+    justify-content: center;
+}
+ 
+.button-50 {
+    background-color: #393E46;
+    background-image: none;
+    border: 1px solid #393E46;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#393E46 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 15px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+  box-shadow: #00ADB5 4px 4px 0 0,#393E46 4px 4px 0 1px;
+  transition:1s;
+}
+
+.button-50:active {
+  box-shadow: #393E46 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #393E46 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+.deco{
+    text-decoration: none;
+    color: #EEEEEE;
+}

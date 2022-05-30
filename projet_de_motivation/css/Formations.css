@@ -1,0 +1,101 @@
+html{
+    font-family : arial;
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+h5{
+    font-size:1.05em;
+    margin: 10px;
+}
+
+body {
+    color:#222831;
+    margin:0px;
+}
+
+footer {
+    height:18%;
+    width: 100%;
+    position:fixed;
+    font-family: 'Poppins Medium', sans-serif;
+    text-align: center;
+    margin-left: 0px;
+    bottom: 0px;
+    color: #EEEEEE;
+    background-color:  #393E46;
+}
+.icon {
+    margin-right: 5px;
+    color:#EEEEEE;
+}
+    
+.ventre {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:auto;
+    background-size: cover;
+}
+
+.ligne{
+    height:100%;
+    width: 3px;
+    background-color: #222831;
+    content: '';
+    margin-left: 50%;
+    border-radius: 3px;
+    display:inline-block;
+}
+
+.gauche {
+    display: block;
+    position: relative;
+    text-align:right;
+    left:0px;
+    width:47%;
+    margin-top: -35%;
+    
+}
+
+.droite {
+    display: block;
+    position: relative;
+    text-align:left;
+    right: -53%;
+    width:47%;
+    margin-top: -34%;
+}
+
+.cercle{
+    display:flex;
+    height: 20px; 
+    width: 20px; 
+    background-color: #222831;
+    border-radius: 20px;
+    margin-left: -9px;
+    margin-top: 38px;
+}
+
+.bleu{
+   color: #00ADB5
+}
+
+.deco{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.size{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
